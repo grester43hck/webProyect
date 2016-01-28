@@ -17,7 +17,7 @@
 		if($cat->variables){
 
 			$post->categoryId = $PARAMS['categoryId'];
-			$post->media = $_FILES['media']['name'].$d;
+			$post->media = $PARAMS['media'];
 			$post->type = $PARAMS['type'];
 			$post->create_date = date("Ymd");
 			$post->create_hour = date("G:i:s");
