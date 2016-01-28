@@ -1,0 +1,67 @@
+Time : 10:49:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? AND categoryId = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified AND categoryId = :id LIMIT :initial, :final
+
+Time : 10:49:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:48:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:48:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:47:31
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:47:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:47:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:45:32
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:44:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:44:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:44:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:43:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:43:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:43:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:43:03
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:42:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final
+
+Time : 10:41:18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'verified = ? LIMIT ?, ?' at line 1
+Raw SQL : SELECT * FROM view_posts_valoracion WHERE (reports<10 OR reports<likes) verified = :verified LIMIT :initial, :final

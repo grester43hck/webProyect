@@ -1,0 +1,117 @@
+Time : 13:37:03
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :user = (select username from likes l where l.username= :user AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 13:34:02
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :user = (select username from likes l where l.username= :user AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 13:33:29
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username= :username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 13:32:55
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username= :username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 13:31:07
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId= :id
+
+Time : 13:31:06
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId= :id
+
+Time : 13:31:05
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId= :id
+
+Time : 13:31:01
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId= :id
+
+Time : 13:30:03
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId= :id
+
+Time : 13:30:01
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId= :id
+
+Time : 13:29:47
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : select id from likes where postId= :id AND username = :username
+
+Time : 13:28:37
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : select id from likes where postId= :id AND username = :username
+
+Time : 13:28:37
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : select id from likes where postId= :id AND username = :username
+
+Time : 13:27:50
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : select id from likes where postId= :id AND username = :username
+
+Time : 13:04:40
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.likes' in 'where clause'
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<v.likes) AND categoryId=:id
+
+Time : 13:04:39
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.likes' in 'where clause'
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<v.likes) AND categoryId=:id
+
+Time : 13:04:38
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.likes' in 'where clause'
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<v.likes) AND categoryId=:id
+
+Time : 13:04:37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.likes' in 'where clause'
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<v.likes) AND categoryId=:id
+
+Time : 13:00:42
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT v.*, CASE WHEN ':user' = (select username from likes l where l.username= ':user' AND l.postId = v.id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` v where (v.reports<10 or v.reports<v.likes) AND v.categoryId=:id
+
+Time : 13:00:42
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT v.*, CASE WHEN ':user' = (select username from likes l where l.username= ':user' AND l.postId = v.id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` v where (v.reports<10 or v.reports<v.likes) AND v.categoryId=:id
+
+Time : 13:00:04
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT v.*, CASE WHEN ':username' = (select username from likes l where l.username= ':username' AND l.postId = v.id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` v where (v.reports<10 or v.reports<v.likes) AND v.categoryId=:id
+
+Time : 12:58:25
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT v.*, CASE WHEN ':username' = (select username from likes l where l.username= ':username' AND l.postId = v.id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` v where (v.reports<10 or v.reports<v.likes) AND v.categoryId=:id
+
+Time : 12:58:24
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT v.*, CASE WHEN ':username' = (select username from likes l where l.username= ':username' AND l.postId = v.id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` v where (v.reports<10 or v.reports<v.likes) AND v.categoryId=:id
+
+Time : 12:58:23
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT v.*, CASE WHEN ':username' = (select username from likes l where l.username= ':username' AND l.postId = v.id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` v where (v.reports<10 or v.reports<v.likes) AND v.categoryId=:id
+
+Time : 12:57:38
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT v.*, CASE WHEN ':username' = (select username from likes l where l.username= ':username' AND l.postId = v.id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` v where (v.reports<10 or v.reports<v.likes) AND v.categoryId=:id
+
+Time : 12:57:38
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT v.*, CASE WHEN ':username' = (select username from likes l where l.username= ':username' AND l.postId = v.id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` v where (v.reports<10 or v.reports<v.likes) AND v.categoryId=:id
+
+Time : 12:56:38
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT *, CASE WHEN ':username' = (select username from likes l where l.username= ':username' AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 12:55:05
+SQLSTATE[HY000] [2002] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+
+
+Time : 12:54:56
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+
+Time : 12:54:49
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Host desconocido. 

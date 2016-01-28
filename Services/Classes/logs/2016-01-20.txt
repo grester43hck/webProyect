@@ -1,0 +1,251 @@
+Time : 20:00:02
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 19:57:22
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:44:03
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:44:03
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:44:03
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:44:03
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:44:03
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:44:02
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:44:02
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:43:16
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:43:16
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:43:16
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:43:16
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:43:16
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:43:16
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:43:15
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:43:15
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:41:19
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:41:03
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:39:22
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username= :username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:32:35
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT *, CASE WHEN ':username' = (select username from likes l where l.username= ':username' AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:32:29
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username= :username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:32:11
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT *, CASE WHEN ':username' = (select username from likes l where l.username= ':username' AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:31:52
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username= :username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:31:12
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username= :username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:29:43
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username= :username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:28:19
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username= :username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:28:00
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:26:28
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND categoryId=:id
+
+Time : 17:24:12
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username= :username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:40
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:40
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:39
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:23
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:23
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:23
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:23
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:22
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:22
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:22
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:22
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:21
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:21
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:23:20
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:35
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:28
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:14
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:14
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:13
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:13
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:13
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:13
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:13
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:13
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:12
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:04
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:04
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:04
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:04
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:20:03
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:18:28
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 17:15:38
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT *, CASE WHEN :username = (select username from likes l where l.username=:username AND l.postId = id) THEN 0 ELSE 1 END as 'likable' FROM `view_posts_valoracion` where (reports<10 or reports<likes)
+
+Time : 12:53:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'des' at line 1
+Raw SQL : SELECT * FROM comments where postId = :id order by id des

@@ -1,0 +1,11 @@
+Time : 15:51:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where (reports<10 or reports<likes) AND verified=0 order by id DESC' at line 1
+Raw SQL : SELECT * FROM `view_posts_valoracion` limit 10 where (reports<10 or reports<likes) AND verified=0 order by id DESC
+
+Time : 15:47:47
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10 * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND verifi' at line 1
+Raw SQL : SELECT TOP 10 * FROM `view_posts_valoracion` where (reports<10 or reports<likes) AND verified=0 order by id DESC
+
+Time : 14:03:27
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`memebase`.`comments`, CONSTRAINT `comments_ibfk_1` FOREIGN KEY (`username`) REFERENCES `users` (`username`))
+Raw SQL : UPDATE comments SET postId = :postId,referId = :referId,username = :username,content = :content,create_date = :create_date,create_hour = :create_hour,delete_date = :delete_date WHERE id= :id

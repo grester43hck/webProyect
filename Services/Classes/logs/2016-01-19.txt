@@ -1,0 +1,151 @@
+Time : 16:39:22
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`memebase`.`posts`, CONSTRAINT `posts_ibfk_2` FOREIGN KEY (`categoryId`) REFERENCES `categories` (`id`))
+Raw SQL : INSERT INTO posts (categoryId,media,type,username,title,content) VALUES (:categoryId,:media,:type,:username,:title,:content)
+
+Time : 16:37:29
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`memebase`.`posts`, CONSTRAINT `posts_ibfk_2` FOREIGN KEY (`categoryId`) REFERENCES `categories` (`id`))
+Raw SQL : INSERT INTO posts (categoryId,media,type,username,title,content) VALUES (:categoryId,:media,:type,:username,:title,:content)
+
+Time : 15:38:47
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'likes' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from posts where (reports<10 OR reports<likes)
+
+Time : 13:40:25
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:25
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:25
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:25
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:25
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:25
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:23
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:13
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:13
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:13
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:12
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:07
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:07
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:06
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:06
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:40:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:53
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:53
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:53
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:52
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:22
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:21
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:21
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:21
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:21
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:21
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:20
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:20
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:39:19
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
+
+Time : 13:38:19
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+Raw SQL : Select id, create_date, create_hour, media, type, username, title, content, likes from categories where categoryId = :category AND (reports<10 OR reports<likes)
