@@ -6,7 +6,7 @@
 	require_once("../Classes/Post.class.php");
 	require_once("../Classes/Category.class.php");
    
-	if(isset($PARAMS['categoryId']) && isset($PARAMS['media']) && isset($PARAMS['type']) && isset($PARAMS['title'])){
+	if(isset($PARAMS['categoryId']) && isset($PARAMS['type']) && isset($PARAMS['title'])){
    
 		$post = new Post();
 		$cat = new Category();
@@ -15,9 +15,9 @@
 		$cat->Find();
 		
 		if($cat->variables){
-		
+
 			$post->categoryId = $PARAMS['categoryId'];
-			$post->media = $PARAMS['media'];
+			$post->media = $_FILES['media']['name'].$d;
 			$post->type = $PARAMS['type'];
 			$post->create_date = date("Ymd");
 			$post->create_hour = date("G:i:s");

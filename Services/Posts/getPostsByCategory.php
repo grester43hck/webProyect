@@ -34,7 +34,7 @@
 		
 		if(!isset($_SESSION[$cat])) $_SESSION[$cat] = $posts[0]['id'];
 
-		//SI ESTA LOGEADO SE AÑADEN LOS CAMPOS likable Y likeId AL ARRAY
+		//SI ESTA LOGEADO SE AÑADE EL CAMPO likable AL ARRAY
 		
 		if(isset($_SESSION['username'])){
 			

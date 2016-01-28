@@ -1,9 +1,5 @@
 <?php
 
-$autoverify=true; //AUTOVERIFICACIÃ“N DE POSTS ACTIVO/DESACTIVO
-$minLikesToVerify = 20; //MÃ?NIMO DE LIKES PARA LA VERIFICACIÃ“N
-$maxReportToVerify = 15; //MÃ?XIMO DE REPORTS PARA LA VERIFICACIÃ“N
-
  include_once("../includes/header.inc.php");
  include_once("../includes/needLogIn.inc.php");
  

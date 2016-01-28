@@ -1,8 +1,14 @@
 <?php 
-header('Content-Type: application/json');
+	header('Content-Type: application/json');
+
 	//ASOCIACION DE PARAMETROS
-	$PARAMS = $_GET;
+	$PARAMS = $_POST;
 	
 	//FILTRO DE AUTOLIMPIADO POR NUMERO DE REPORTS/LIKES
-	$AUTO_CLEAN_REPORTED= "(reports<10 OR reports<likes)"; 
+	$AUTO_CLEAN_REPORTED= "(reports<10 OR reports<likes)";
+
+	//sendLike.php AUTOVERIFY CONFIGURATION
+	$autoverify=true; //AUTOVERIFICACIÓN DE POSTS ACTIVO/DESACTIVO
+	$minLikesToVerify = 20; //M�?NIMO DE LIKES PARA LA VERIFICACIÓN
+	$maxReportToVerify = 15; //M�?XIMO DE REPORTS PARA LA VERIFICACIÓN
 ?>
