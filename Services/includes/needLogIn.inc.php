@@ -22,7 +22,12 @@
 			echo json_encode(array("status"=>"needMoreUserLevel"));
 			exit();
 			
+		}elseif($user->banned){
+
+			echo json_encode(array("status"=>"banned", "reasson"=>$user->reasson));
+			exit();
+
 		}
-		
+
 	}
 ?>
