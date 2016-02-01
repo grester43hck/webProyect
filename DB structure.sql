@@ -3,11 +3,12 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 29-01-2016 a las 08:45:42
+-- Tiempo de generación: 01-02-2016 a las 15:02:24
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.5.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -124,6 +125,28 @@ CREATE TABLE `users` (
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `user_levels`
+--
+
+DROP TABLE IF EXISTS `user_levels`;
+CREATE TABLE `user_levels` (
+  `level` int(11) NOT NULL,
+  `title` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `user_levels`
+--
+
+INSERT INTO `user_levels` (`level`, `title`) VALUES
+(1, 'LoggedNotVerified'),
+(1, 'NotLoggedin'),
+(2, 'LoggedVerified'),
+(3, 'Admin');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `verify_email`
 --
 
@@ -164,7 +187,7 @@ CREATE TABLE `view_posts_valoracion` (
 --
 DROP TABLE IF EXISTS `view_posts_valoracion`;
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_posts_valoracion`  AS  select `p`.`id` AS `id`,`p`.`categoryId` AS `categoryId`,`p`.`create_date` AS `create_date`,`p`.`create_hour` AS `create_hour`,`p`.`media` AS `media`,`p`.`type` AS `type`,`p`.`username` AS `username`,`p`.`title` AS `title`,`p`.`content` AS `content`,`p`.`verified` AS `verified`,(select count(0) from `likes` `l` where (`p`.`id` = `l`.`postId`)) AS `likes`,(select count(0) from `reports` `r` where (`p`.`id` = `r`.`postId`)) AS `reports` from `posts` `p` where (isnull(`p`.`delete_date`) or (`p`.`delete_date` = '')) order by `p`.`id` desc ;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_posts_valoracion`  AS  select `p`.`id` AS `id`,`p`.`categoryId` AS `categoryId`,`p`.`create_date` AS `create_date`,`p`.`create_hour` AS `create_hour`,`p`.`media` AS `media`,`p`.`type` AS `type`,`p`.`username` AS `username`,`p`.`title` AS `title`,`p`.`content` AS `content`,`p`.`verified` AS `verified`,(select count(0) from `likes` `l` where (`p`.`id` = `l`.`postId`)) AS `likes`,(select count(0) from `reports` `r` where (`p`.`id` = `r`.`postId`)) AS `reports` from `posts` `p` where ((isnull(`p`.`delete_date`) or (`p`.`delete_date` = '')) and `p`.`username` in (select `u`.`username` from `users` `u` where ((isnull(`u`.`delete_date`) or (`u`.`delete_date` = '')) and (`u`.`banned` = 0)))) order by `p`.`id` desc ;
 
 --
 -- Índices para tablas volcadas
@@ -213,7 +236,14 @@ ALTER TABLE `reports`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`username`),
-  ADD KEY `id` (`id`);
+  ADD KEY `id` (`id`),
+  ADD KEY `userLevel` (`userLevel`);
+
+--
+-- Indices de la tabla `user_levels`
+--
+ALTER TABLE `user_levels`
+  ADD PRIMARY KEY (`level`,`title`);
 
 --
 -- Indices de la tabla `verify_email`
@@ -258,6 +288,11 @@ ALTER TABLE `reports`
 ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
+-- AUTO_INCREMENT de la tabla `user_levels`
+--
+ALTER TABLE `user_levels`
+  MODIFY `level` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+--
 -- AUTO_INCREMENT de la tabla `verify_email`
 --
 ALTER TABLE `verify_email`
@@ -293,6 +328,12 @@ ALTER TABLE `posts`
 ALTER TABLE `reports`
   ADD CONSTRAINT `reports_ibfk_1` FOREIGN KEY (`postId`) REFERENCES `posts` (`id`),
   ADD CONSTRAINT `reports_ibfk_2` FOREIGN KEY (`username`) REFERENCES `users` (`username`);
+
+--
+-- Filtros para la tabla `users`
+--
+ALTER TABLE `users`
+  ADD CONSTRAINT `users_ibfk_1` FOREIGN KEY (`userLevel`) REFERENCES `user_levels` (`level`);
 
 --
 -- Filtros para la tabla `verify_email`
