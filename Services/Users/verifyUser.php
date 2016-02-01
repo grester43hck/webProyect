@@ -2,6 +2,7 @@
  include_once("../includes/header.inc.php");
 
    require_once("../Classes/User.class.php");
+   require_once("../Classes/DB.class.php");
    require_once("../Classes/VerifyEmail.class.php");
    
    $user  = new User();
@@ -22,7 +23,14 @@
 			$user->Find();
 			
 			$user->verified=1;
-			$user->userLevel=2;
+
+		   //GET LEVEL OF LoggedVeriffied
+			$db = new DB();
+		    $db->bind("title", "LoggedVerified");
+		   	$level = $db->query("select level from user_levels where title = :title");
+		   //.............................
+
+			$user->userLevel=$level;
 			$user->Save();
 			
 			$VEmail->verified = 1;
