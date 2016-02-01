@@ -1,6 +1,6 @@
 <?php 
  include_once("../includes/header.inc.php");
- $REQUIRED_USER_LEVEL=2;//NIVEL DE USUARIO MINIMO REQUERIDO
+ $REQUIRED_USER_LEVEL="LoggedVerified";//NIVEL DE USUARIO MINIMO REQUERIDO
  include_once("../includes/needLogIn.inc.php");
 
 	require_once("../Classes/Post.class.php");
